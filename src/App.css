@@ -1,0 +1,108 @@
+@import './Fonts.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.container {
+  max-width: 1540px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  padding: 0 80px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.header__logo {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 28px;
+  color: #22262a;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__link {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22262a;
+}
+
+.header__menu {
+  cursor: pointer;
+}
+
+/* HEADER */
+/* HERO */
+.container {
+  max-width: 100wv;
+}
+
+.hero {
+  position: relative;
+  height: calc(100vh - 115px);
+  background: url(./assets/images/hero-img.jpg) no-repeat;
+}
+
+.hero__txt {
+  position: absolute;
+  right: 110px;
+  bottom: 120px;
+}
+
+.hero__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+
+.hero__buttons {
+  position: absolute;
+  right: 180px;
+  bottom: 70px;
+  display: flex;
+  gap: 30px;
+}
+
+.hero__btn {
+  cursor: pointer;
+  width: 147px;
+  height: 35px;
+  background: #22262a;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+/* HERO */
