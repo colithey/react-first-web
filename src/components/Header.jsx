@@ -1,11 +1,11 @@
-import navImg from './assets/images/nav-img.png'
+import navImg from '../assets/images/nav-img.png'
 
 export const Header = () => {
     return (
       <>
   
-        <div className="container header__container">
           <header className="header" id="header">
+          <div className="container header__container">
             <p className="header__logo">YOUR LOGO</p>
             <nav className="header__nav">
               <a href="#" className="header__link">HOME</a>
@@ -18,8 +18,8 @@ export const Header = () => {
             <aside className='header__menu'>
               <img src={navImg} />
             </aside>
+            </div>
           </header>
-        </div>
   
       </>
     );
